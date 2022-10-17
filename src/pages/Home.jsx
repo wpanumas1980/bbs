@@ -24,6 +24,7 @@ export default function Home() {
             </Button>
             <Button
                 type='primary'
+                href='/two'
                 style={{
                     margin:'16px'
                 }}
