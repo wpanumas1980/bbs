@@ -1,7 +1,5 @@
 import React from 'react';
 import {
-    Row,
-    Col,
     Button
 } from 'antd';
 
@@ -30,15 +28,16 @@ export default function Home() {
                     margin:'16px'
                 }}
             >
-                Ex.1
+                Ex.2
             </Button>
             <Button
                 type='primary'
+                href='/three'
                 style={{
                     margin:'16px'
                 }}
             >
-                Ex.1
+                Ex.3
             </Button>
 
         </div>

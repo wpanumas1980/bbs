@@ -1,4 +1,4 @@
-import { Typography } from 'antd'
+import { Button, Typography } from 'antd'
 import React from 'react'
 
 export default function ExOne() {
@@ -17,12 +17,16 @@ export default function ExOne() {
         <div
             style={{
                 margin: '0px auto',
-                marginTop: '50vh'
+                marginTop: '50vh',
+                textAlign:'center'
             }}
         >
-            <Typography>
+            <Typography.Title style={{}}>
                 Please see at console
-            </Typography>
+            </Typography.Title>
+            <Button href='/'>
+                Back to home
+            </Button>
         </div>
     )
 }
