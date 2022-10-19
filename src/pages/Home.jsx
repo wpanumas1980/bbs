@@ -17,7 +17,7 @@ export default function Home() {
                 type='primary'
                 href='/one'
                 style={{
-                    margin:'16px'
+                    margin: '16px'
                 }}
             >
                 Ex.1
@@ -26,7 +26,7 @@ export default function Home() {
                 type='primary'
                 href='/two'
                 style={{
-                    margin:'16px'
+                    margin: '16px'
                 }}
             >
                 Ex.2
@@ -35,7 +35,7 @@ export default function Home() {
                 type='primary'
                 href='/three'
                 style={{
-                    margin:'16px'
+                    margin: '16px'
                 }}
             >
                 Ex.3
